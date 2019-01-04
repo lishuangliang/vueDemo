@@ -1,0 +1,2 @@
+export const SETUSERLIST = 'SETUSERLIST';
+export const DELUSERLIST = 'DELUSERLIST';

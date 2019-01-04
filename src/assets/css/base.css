@@ -1,0 +1,58 @@
+html,body,ul{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.m-page{
+  position: absolute;
+  left :0;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: all .3s;
+}
+.page-enter, .page-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+
+.page-left-enter-active, .page-left-leave-active {
+  transition: all .3s;
+}
+.page-left-enter, .page-left-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-up-enter-active, .slide-up-leave-active {
+  transition: all .3s;
+}
+.slide-up-enter, .slide-up-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.fade-in-enter-active, .fade-in-leave-active{
+  transition: opacity .3s ease-out
+}
+.fade-in-enter, .fade-in-leave-to{
+  opacity: 0;
+}
+
+
+
